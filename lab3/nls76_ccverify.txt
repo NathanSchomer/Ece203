@@ -1,0 +1,8 @@
+credit card number: 43589795 is a VALID credit card number.
+credit card number: 5979853433394390 is a VALID credit card number.
+credit card number: 4561325629913234 is an INVALID credit card number.
+credit card number: 234912912347 is a VALID credit card number.
+credit card number: 321932313999 is an INVALID credit card number.
+credit card number: 4092611758114081 is a VALID credit card number.
+credit card number: 75917413300961746711946909974528 is a VALID credit card number.
+credit card number: 3432111232230921 is an INVALID credit card number.
