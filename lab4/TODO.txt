@@ -1,0 +1,4 @@
+1. test more numbers
+2. add in printing with "!" and "."
+3. save output to text file
+4. submit on bblearn
