@@ -10,11 +10,19 @@ def printDigit(digit):
         bar_num = bar_num + 1
     
     if sum(bars) == 0:
-        print [1,1,0,0,0]   #extraneous case when digit = 0
+        bars = [1,1,0,0,0]   #extraneous case when digit = 0
     
     else:
         bars[4] = 2 - sum(bars)
-        print bars
+        
+    for i in bars:
+        if i == 1:
+            print "!",
+        else:
+            print ".",
+
+    print "\t",
+     #   print bars
 
 def printBarCode(zip_code):
     #print all digit of zip_code
