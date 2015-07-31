@@ -1,0 +1,67 @@
+
+-	-	-
+
+
+-	-	-
+
+
+-	-	-
+
+Player 1 Place Mark:
+row col 
+-	-	-
+
+
+-	X	-
+
+
+-	-	-
+
+
+Player 2 Place Mark
+row col 
+Player 2 Place Mark
+row col 
+O	-	-
+
+
+-	X	-
+
+
+-	-	-
+
+Player 1 Place Mark:
+row col 
+O	-	-
+
+
+-	X	-
+
+
+-	-	X
+
+
+Player 2 Place Mark
+row col 
+O	O	-
+
+
+-	X	-
+
+
+-	-	X
+
+Player 1 Place Mark:
+row col 
+O	O	-
+
+
+-	X	-
+
+
+X	-	X
+
+
+Player 2 Place Mark
+row col 
+WIN: O

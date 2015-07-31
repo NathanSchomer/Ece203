@@ -33,17 +33,21 @@ def setMark(board, x, y, val):
         return -1;
 
 def player1move(board):
-    print('Player 1 Place Mark:')
-    y = int(raw_input('row '))
-    x = int(raw_input('col '))
-    setMark(board, x, y, 'X')
+    goodMove = -1
+    while(goodMove == -1):
+        print('Player 1 Place Mark:')
+        y = int(raw_input('row '))
+        x = int(raw_input('col '))
+        goodMove = setMark(board, x, y, 'X')
     return board
 
 def player2move(board):
-    print('\nPlayer 2 Place Mark')
-    y = int(raw_input('row '))
-    x = int(raw_input('col '))
-    setMark(board, x, y, 'O')
+    goodMove = -1;
+    while(goodMove == -1):
+        print('\nPlayer 2 Place Mark')
+        y = int(raw_input('row '))
+        x = int(raw_input('col '))
+        goodMove = setMark(board, x, y, 'O')
     return board
 
 def printBoard(board):
